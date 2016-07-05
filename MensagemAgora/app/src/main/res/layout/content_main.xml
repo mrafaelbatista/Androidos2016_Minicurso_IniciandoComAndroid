@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.mrafaelbatista.mensagemagora.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/bt_compMensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="compMensagem"
+        android:text="Compartilhar Texto" />
+
+    <Button
+        android:id="@+id/bt_acessarWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="acessarWeb"
+        android:text="Acessar Web" />
+
+    <Button
+        android:id="@+id/bt_chamadaCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="chamadaCall"
+        android:text="Chamada" />
+
+
+    <Button
+        android:id="@+id/bt_chamadaDial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="chamadaDiscagem"
+        android:text="Discagem" />
+
+    <Button
+        android:id="@+id/bt_capturaImagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="capturaImagem"
+        android:text="Captura de Imagem" />
+
+    <Button
+        android:id="@+id/bt_abrirContatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abrirContatos"
+        android:text="Abrir Contatos" />
+
+    <Button
+        android:id="@+id/bt_pesquisarWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="pesquisarWeb"
+        android:text="Pesquisar na Web" />
+
+    <Button
+        android:id="@+id/bt_switchTelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="switchTelas"
+        android:text="Switch de Telas" />
+
+    <Button
+        android:id="@+id/bt_switchTelasValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="switchTelasValor"
+        android:text="Passando Valor" />
+
+
+</LinearLayout>

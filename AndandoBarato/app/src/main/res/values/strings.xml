@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Andando Barato</string>
+    <string name="action_settings">Settings</string>
+    <string name="btCalcularDiferenca">Calcular</string>
+</resources>
